@@ -172,22 +172,23 @@ public class DriverUtil {
 						//System.setProperty("webdriver.chrome.driver", chromeExecutable.getAbsolutePath());
 					    WebDriverManager.chromedriver().setup();
 					    browser = new ChromeDriver();
-						//browser = new ChromeDriver();
-						//drivers.put("Chrome", browser);
-						 
-					} // End if
+				 	} // End if
 				} else if (browserName.equalsIgnoreCase(IE)) {
 					// Write code for IE
 					browser = drivers.get(browserName);
 					if (browser == null) {
-						File ieExecutable = new File(ConfigReader.getValue("IEDriverPath"));
-						System.setProperty("webdriver.ie.driver", ieExecutable.getAbsolutePath());
-						DesiredCapabilities capabilitiesIE = DesiredCapabilities.internetExplorer();
-						capabilitiesIE.setCapability("ie.ensureCleanSession", true);
-						capabilitiesIE.setCapability(InternetExplorerDriver.ENABLE_ELEMENT_CACHE_CLEANUP, true);
-						browser = new InternetExplorerDriver(capabilitiesIE);
-						drivers.put("IE", browser);
-						checkLogin.put(browserName, "Y");
+						WebDriverManager.iedriver().setup();
+					    browser = new InternetExplorerDriver();
+						/*
+						 * File ieExecutable = new File(ConfigReader.getValue("IEDriverPath"));
+						 * System.setProperty("webdriver.ie.driver", ieExecutable.getAbsolutePath());
+						 * DesiredCapabilities capabilitiesIE = DesiredCapabilities.internetExplorer();
+						 * capabilitiesIE.setCapability("ie.ensureCleanSession", true);
+						 * capabilitiesIE.setCapability(InternetExplorerDriver.
+						 * ENABLE_ELEMENT_CACHE_CLEANUP, true); browser = new
+						 * InternetExplorerDriver(capabilitiesIE); drivers.put("IE", browser);
+						 * checkLogin.put(browserName, "Y");
+						 */
 					}
 				} 
 
@@ -195,11 +196,16 @@ public class DriverUtil {
 					// Getting Firefox Browser
 					browser = drivers.get("Firefox");
 					if (browser == null) {
-						File geckoExecutable = new File(ConfigReader.getValue("GeckoDriverPath"));
-						System.out.println(geckoExecutable.getAbsolutePath());
-						System.setProperty("webdriver.gecko.driver",geckoExecutable.getAbsolutePath());
-						browser = new FirefoxDriver();
-						drivers.put("Firefox", browser);
+						
+						WebDriverManager.firefoxdriver().setup();
+					    browser = new FirefoxDriver();
+					    
+						/*
+						 * File geckoExecutable = new File(ConfigReader.getValue("GeckoDriverPath"));
+						 * System.out.println(geckoExecutable.getAbsolutePath());
+						 * System.setProperty("webdriver.gecko.driver",geckoExecutable.getAbsolutePath()
+						 * ); browser = new FirefoxDriver(); drivers.put("Firefox", browser)
+						 */;
 					}
 				}
 			}

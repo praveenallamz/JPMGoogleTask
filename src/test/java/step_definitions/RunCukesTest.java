@@ -23,7 +23,7 @@ import utilities.LogUtil;
 @CucumberOptions(
 		features = "classpath:features",
 		plugin = {"pretty", "html:target/cucumber-html-report","json:target/cucumber.json"},
-		tags = {"@Amazon"},
+		tags = {"@Google"},
 		monochrome = true )
 
 public class RunCukesTest extends AbstractTestNGCucumberTests{

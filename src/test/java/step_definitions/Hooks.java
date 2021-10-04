@@ -20,7 +20,7 @@ public class Hooks {
 	String pathForLogger;
 	String testCaseDescription;
 
-	@Before("@Amazon")
+	@Before("@Google")
 	public void beforeMethodAmazon(Scenario scenario) {
 
 		if (scenario.getName().contains("_"))
@@ -37,13 +37,12 @@ public class Hooks {
 				"Test is executed in Environment: " + GlobalUtil.getCommonSettings().getExecutionEnv());
 
 		LogUtil.infoLog("TestStarted", "Test is started with browser: " + GlobalUtil.getCommonSettings().getBrowser());
-		GlobalUtil.setDriver(DriverUtil.getBrowser(GlobalUtil.getCommonSettings().getExecutionEnv(),
-			GlobalUtil.getCommonSettings().getBrowser()));
+		GlobalUtil.setDriver(DriverUtil.getBrowser(GlobalUtil.getCommonSettings().getExecutionEnv(),GlobalUtil.getCommonSettings().getBrowser()));
 	}
 
 	 
 
-	@After("@Amazon")
+	@After("@Google")
 	public void afterMethodSmoke(Scenario scenario) {
 		String testName = scenario.getName().split("_")[0].trim();
 		if (scenario.isFailed()) {

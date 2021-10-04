@@ -7456,3 +7456,133 @@
 +===========================================================================================================+
 2021-10-04 10:30:27 INFO  - Test process has ended
 2021-10-04 10:30:27 INFO  - Email Flag Set To: N
+2021-10-04 11:31:23 INFO  - 
+
++===========================================================================================================+
+2021-10-04 11:31:23 INFO  -  Suite started at Mon Oct 04 11:31:23 IST 2021
+2021-10-04 11:31:23 INFO  - Suite Execution For Web application on environment : Local
+2021-10-04 11:31:23 INFO  - Suite Execution For Android mobile application on version: 5.0
+2021-10-04 11:31:23 INFO  - Suite Execution For RestAPI on URL: https://gorest.co.in/public-api/users
+2021-10-04 11:31:23 INFO  - 
+
++===========================================================================================================+
+2021-10-04 11:31:23 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2021-10-04 11:31:23 INFO  - Test Started: Google Search given text and verify logo displayed as expected
+2021-10-04 11:31:23 INFO  - Test is executed in Environment: Local
+2021-10-04 11:31:23 INFO  - Test is started with browser: CHROME
+2021-10-04 11:31:26 INFO  - CHROME : Browser Launched and Maximized.
+2021-10-04 11:31:27 INFO  - Navigate to: https://www.google.com/
+2021-10-04 11:31:30 INFO  - Input Text: J P Morgan - By.xpath: //body/div[1]/div[3]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/input[1]
+2021-10-04 11:31:51 INFO  - Test has ended closing browser: CHROME
+2021-10-04 11:31:51 INFO  - Closing Browsers
+2021-10-04 11:31:51 INFO  -  suite finished at Mon Oct 04 11:31:51 IST 2021
+2021-10-04 11:31:51 INFO  - 
+
++===========================================================================================================+
+2021-10-04 11:31:52 INFO  - Test process has ended
+2021-10-04 11:31:52 INFO  - Email Flag Set To: N
+2021-10-04 11:33:03 INFO  - 
+
++===========================================================================================================+
+2021-10-04 11:33:03 INFO  -  Suite started at Mon Oct 04 11:33:03 IST 2021
+2021-10-04 11:33:03 INFO  - Suite Execution For Web application on environment : Local
+2021-10-04 11:33:03 INFO  - Suite Execution For Android mobile application on version: 5.0
+2021-10-04 11:33:03 INFO  - Suite Execution For RestAPI on URL: https://gorest.co.in/public-api/users
+2021-10-04 11:33:03 INFO  - 
+
++===========================================================================================================+
+2021-10-04 11:33:04 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2021-10-04 11:33:04 INFO  - Test Started: Google Search given text and verify logo displayed as expected
+2021-10-04 11:33:04 INFO  - Test is executed in Environment: Local
+2021-10-04 11:33:04 INFO  - Test is started with browser: CHROME
+2021-10-04 11:33:06 INFO  - CHROME : Browser Launched and Maximized.
+2021-10-04 11:33:06 INFO  - Navigate to: https://www.google.com/
+2021-10-04 11:33:09 INFO  - Input Text: J P Morgan - By.xpath: //body/div[1]/div[3]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/input[1]
+2021-10-04 11:33:21 INFO  - Test has ended closing browser: CHROME
+2021-10-04 11:33:21 INFO  - Closing Browsers
+2021-10-04 11:33:21 INFO  -  suite finished at Mon Oct 04 11:33:21 IST 2021
+2021-10-04 11:33:21 INFO  - 
+
++===========================================================================================================+
+2021-10-04 11:33:22 INFO  - Test process has ended
+2021-10-04 11:33:22 INFO  - Email Flag Set To: N
+2021-10-04 11:36:06 INFO  - 
+
++===========================================================================================================+
+2021-10-04 11:36:06 INFO  -  Suite started at Mon Oct 04 11:36:06 IST 2021
+2021-10-04 11:36:06 INFO  - Suite Execution For Web application on environment : Local
+2021-10-04 11:36:06 INFO  - Suite Execution For Android mobile application on version: 5.0
+2021-10-04 11:36:06 INFO  - Suite Execution For RestAPI on URL: https://gorest.co.in/public-api/users
+2021-10-04 11:36:06 INFO  - 
+
++===========================================================================================================+
+2021-10-04 11:36:06 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2021-10-04 11:36:06 INFO  - Test Started: Google Search given text and verify logo displayed as expected
+2021-10-04 11:36:06 INFO  - Test is executed in Environment: Local
+2021-10-04 11:36:06 INFO  - Test is started with browser: CHROME
+2021-10-04 11:36:09 INFO  - CHROME : Browser Launched and Maximized.
+2021-10-04 11:36:09 INFO  - Navigate to: https://www.google.com/
+2021-10-04 11:36:12 INFO  - Input Text: J P Morgan - By.xpath: //body/div[1]/div[3]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/input[1]
+2021-10-04 11:36:29 INFO  - Test has ended closing browser: CHROME
+2021-10-04 11:36:29 INFO  - Closing Browsers
+2021-10-04 11:36:29 INFO  -  suite finished at Mon Oct 04 11:36:29 IST 2021
+2021-10-04 11:36:29 INFO  - 
+
++===========================================================================================================+
+2021-10-04 11:36:29 INFO  - Test process has ended
+2021-10-04 11:36:29 INFO  - Email Flag Set To: N
+2021-10-04 11:37:07 INFO  - 
+
++===========================================================================================================+
+2021-10-04 11:37:07 INFO  -  Suite started at Mon Oct 04 11:37:07 IST 2021
+2021-10-04 11:37:07 INFO  - Suite Execution For Web application on environment : Local
+2021-10-04 11:37:07 INFO  - Suite Execution For Android mobile application on version: 5.0
+2021-10-04 11:37:07 INFO  - Suite Execution For RestAPI on URL: https://gorest.co.in/public-api/users
+2021-10-04 11:37:07 INFO  - 
+
++===========================================================================================================+
+2021-10-04 11:37:07 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2021-10-04 11:37:07 INFO  - Test Started: Google Search given text and verify logo displayed as expected
+2021-10-04 11:37:07 INFO  - Test is executed in Environment: Local
+2021-10-04 11:37:07 INFO  - Test is started with browser: CHROME
+2021-10-04 11:37:09 INFO  - CHROME : Browser Launched and Maximized.
+2021-10-04 11:37:09 INFO  - Navigate to: https://www.google.com/
+2021-10-04 11:37:12 INFO  - Input Text: J P Morgan - By.xpath: //body/div[1]/div[3]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/input[1]
+2021-10-04 11:37:27 INFO  - Test has ended closing browser: CHROME
+2021-10-04 11:37:27 INFO  - Closing Browsers
+2021-10-04 11:37:27 INFO  -  suite finished at Mon Oct 04 11:37:27 IST 2021
+2021-10-04 11:37:27 INFO  - 
+
++===========================================================================================================+
+2021-10-04 11:37:27 INFO  - Test process has ended
+2021-10-04 11:37:27 INFO  - Email Flag Set To: N
+2021-10-04 11:38:19 INFO  - 
+
++===========================================================================================================+
+2021-10-04 11:38:19 INFO  -  Suite started at Mon Oct 04 11:38:19 IST 2021
+2021-10-04 11:38:19 INFO  - Suite Execution For Web application on environment : Local
+2021-10-04 11:38:19 INFO  - Suite Execution For Android mobile application on version: 5.0
+2021-10-04 11:38:19 INFO  - Suite Execution For RestAPI on URL: https://gorest.co.in/public-api/users
+2021-10-04 11:38:19 INFO  - 
+
++===========================================================================================================+
+2021-10-04 11:38:20 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2021-10-04 11:38:20 INFO  - Test Started: Google Search given text and verify logo displayed as expected
+2021-10-04 11:38:20 INFO  - Test is executed in Environment: Local
+2021-10-04 11:38:20 INFO  - Test is started with browser: CHROME
+2021-10-04 11:38:22 INFO  - CHROME : Browser Launched and Maximized.
+2021-10-04 11:38:22 INFO  - Navigate to: https://www.google.com/
+2021-10-04 11:38:25 INFO  - Input Text: J P Morgan - By.xpath: //body/div[1]/div[3]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/input[1]
+2021-10-04 11:38:33 INFO  - Test has ended closing browser: CHROME
+2021-10-04 11:38:33 INFO  - Closing Browsers
+2021-10-04 11:38:33 INFO  -  suite finished at Mon Oct 04 11:38:33 IST 2021
+2021-10-04 11:38:33 INFO  - 
+
++===========================================================================================================+
+2021-10-04 11:38:33 INFO  - Test process has ended
+2021-10-04 11:38:33 INFO  - Email Flag Set To: N
